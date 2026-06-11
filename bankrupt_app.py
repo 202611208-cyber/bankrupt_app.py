@@ -26,7 +26,7 @@ scaler = joblib.load(scaler_path)
 training_columns = ['순자산_대_부채', 'ROA_x_유동비율', 'ROA_CFO_비율', '유동_부채_비율', 'ROA_부채_상호작용']
 
 # --- 2. Streamlit UI 구성 ---
-st.title("기업 파산 예측 서비스 🏢")
+st.title("기업 파산 예측 모델 🏢")
 st.write("기업의 4가지 재무 비율을 입력하여 파산 여부를 예측해보세요.")
 
 # 사용자 입력 받기
